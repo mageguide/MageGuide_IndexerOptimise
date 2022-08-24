@@ -1,0 +1,17 @@
+{
+    "name": "mageguide/indexer-eav-optimise",
+    "description": "Magento2 Module. Most performance gains in large e-shops with multiple attribute sets, many stores and many attributes.",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1|~7.2|~7.3|~7.4",
+        "magento/framework": "^100.0.0|^101.0.0|^102.0.0|^103.0.0|^104.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageGuide\\IndexerOptimise\\": "src/"
+        }
+    }
+}
